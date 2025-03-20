@@ -41,7 +41,7 @@
 
 			 								success : function(dataTrue) {
 			 									if (phone == dataTrue) {
-			 										document.location.href = 'page_adm.php?user=' + dataTrue;
+			 										document.location.href = 'python.py?user=' + dataTrue;
 			 										
 			 									}else {
 			 										alert(dataTrue)
