@@ -9,12 +9,18 @@
 
 	<script type="text/javascript" src="condition.js?4" defer></script>
 
-	<script type="text/javascript" src="fonction.js"?4></script>
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </head>
 <body>
+    <h3>Envoyer une photo</h3>
+    
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="photo">Sélectionnez une photo :</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+        <br><br>
+        <input type="submit" value="Envoyer la photo" name="submit">
+    </form>
 
 </body>
 </html>
